@@ -1,0 +1,672 @@
+/* ========================================
+PROJECT PAGE
+======================================== */
+
+#project-page {
+    background: #091125;
+    color: #f5f5f5;
+
+    padding-top: 100px;
+
+    min-height: 100vh;
+}
+
+
+/* ========================================
+PROJECT HEADER
+======================================== */
+
+.project-header {
+    min-height: 45vh;
+
+    padding: 8rem 5vw 4rem;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.project-header h1 {
+    margin: 0;
+
+    font-size: 5rem;
+    font-weight: 600;
+
+    color: #f5f5f5;
+}
+
+.project-details {
+    margin-top: 1.5rem;
+
+    font-size: 1.2rem;
+
+    color: #9da3b0;
+}
+
+
+/* ========================================
+GAMEPLAY VIDEOS
+======================================== */
+
+.project-videos {
+    width: min(1400px, 90%);
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 2rem;
+
+    align-items: start;
+}
+
+
+/* ========================================
+VIDEO / IFRAME
+======================================== */
+
+.project-videos video,
+.project-videos iframe {
+    width: 100%;
+
+    display: block;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #060B18;
+}
+
+
+/* ========================================
+ONE VIDEO
+======================================== */
+
+.project-videos video:only-child,
+.project-videos iframe:only-child {
+    grid-column: 1 / -1;
+}
+
+
+/* ========================================
+LOCAL VIDEO
+======================================== */
+
+.project-videos video {
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* ========================================
+YOUTUBE - LANDSCAPE
+======================================== */
+
+.project-videos iframe.video-landscape {
+    aspect-ratio: 16 / 9;
+
+    height: auto;
+}
+
+/* ========================================
+VIDEO - PORTRAIT
+======================================== */
+
+.project-videos video.video-portrait,
+.project-videos iframe.video-portrait {
+
+    aspect-ratio: 9 / 16;
+
+    width: min(281px, 100%);
+    height: 500px;
+
+    max-height: 70vh;
+
+    margin: 0 auto;
+}
+
+
+/* ========================================
+VIDEO - SQUARE
+======================================== */
+
+.project-videos video.video-square,
+.project-videos iframe.video-square {
+
+    aspect-ratio: 1 / 1;
+
+    width: min(500px, 100%);
+    height: auto;
+
+    max-height: 70vh;
+
+    margin: 0 auto;
+}
+
+
+/* ========================================
+VIDEO - LANDSCAPE
+======================================== */
+
+.project-videos video.video-landscape,
+.project-videos iframe.video-landscape {
+
+    width: 100%;
+    aspect-ratio: 16 / 9;
+
+    height: auto;
+}
+
+
+/* ========================================
+MOBILE
+======================================== */
+
+@media (max-width: 900px) {
+
+    .project-videos {
+        grid-template-columns: 1fr;
+    }
+
+    .project-videos iframe.video-portrait {
+        width: min(225px, 70%);
+        height: 400px;
+    }
+
+    .project-videos iframe.video-square {
+        width: min(400px, 80%);
+        height: auto;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .project-videos {
+        width: 92%;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .project-videos video,
+    .project-videos iframe {
+        grid-column: 1 / -1;
+    }
+
+    .project-videos iframe.video-portrait {
+        width: min(200px, 65%);
+        height: 355px;
+    }
+
+    .project-videos iframe.video-square {
+        width: min(350px, 85%);
+        height: auto;
+    }
+}
+
+
+/* ========================================
+PROJECT DESCRIPTION
+======================================== */
+
+.project-description {
+    width: min(1200px, 85%);
+
+    margin: 10rem auto 0;
+
+    padding: 0;
+
+    display: grid;
+
+    grid-template-columns: 0.7fr 1.3fr;
+
+    gap: 5rem;
+
+    align-items: center;
+
+    min-height: 0;
+}
+
+
+/* ========================================
+PROJECT LOGO
+======================================== */
+
+.project-logo {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.project-logo img {
+    width: 100%;
+
+    max-width: 350px;
+
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* ========================================
+PROJECT DESCRIPTION TEXT
+======================================== */
+
+.project-description-text {
+    font-size: 1.15rem;
+
+    line-height: 1.8;
+
+    color: #c7cbd4;
+}
+
+.project-description-text p {
+    margin: 0 0 1.5rem;
+}
+
+.project-description-text p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ========================================
+ITCH BUTTON
+======================================== */
+
+.project-link {
+    min-height: 0;
+
+    padding: 0;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 5rem auto;
+}
+
+.itch-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem 2.6rem;
+
+    min-height: auto;
+
+    border: 1px solid #f5f5f5;
+
+    border-radius: 5px;
+
+    color: #f5f5f5;
+
+    text-decoration: none;
+
+    font-size: 1rem;
+
+    line-height: 1.2;
+
+    white-space: nowrap;
+
+    background-color: #ff5d5d;
+
+    transition:
+        background 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.itch-button:hover {
+    background: #f5f5f5;
+
+    color: #060B18;
+
+    transform: translateY(-3px);
+}
+
+
+/* ========================================
+CONTRIBUTION
+======================================== */
+
+.project-contribution {
+    width: min(900px, 85%);
+
+    margin: 5rem auto 10rem;
+
+    padding: 0;
+
+    text-align: center;
+
+    min-height: 0;
+}
+
+.project-contribution h2 {
+    margin-bottom: 2rem;
+
+    font-size: 2rem;
+
+    font-weight: 600;
+}
+
+.project-contribution p {
+    margin: 0 0 1.5rem;
+
+    font-size: 1.1rem;
+
+    line-height: 1.8;
+
+    color: #9da3b0;
+}
+
+.project-contribution p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ========================================
+FEATURES
+======================================== */
+
+.project-features {
+    width: min(1400px, 90%);
+
+    margin: 0 auto;
+
+    padding: 0 0 10rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10rem;
+
+    min-height: 0;
+}
+
+
+/* ========================================
+FEATURE
+======================================== */
+
+.project-feature {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 5rem;
+
+    align-items: center;
+
+    min-height: 0;
+}
+
+
+/* ========================================
+FEATURE MEDIA
+======================================== */
+
+.feature-media {
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    overflow: hidden;
+
+    border-radius: 10px;
+
+    background: #060B18;
+}
+
+.feature-media img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+/* ========================================
+FEATURE TEXT
+======================================== */
+
+.feature-content {
+    padding: 2rem;
+}
+
+.feature-content h2 {
+    margin: 0 0 1.5rem;
+
+    font-size: 2.5rem;
+
+    font-weight: 600;
+
+    line-height: 1.2;
+}
+
+.feature-content p {
+    margin: 0 0 1.5rem;
+
+    font-size: 1.1rem;
+
+    line-height: 1.8;
+
+    color: #9da3b0;
+}
+
+.feature-content p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ========================================
+REVERSE FEATURE
+======================================== */
+
+.project-feature.feature-reverse .feature-media {
+    order: 2;
+}
+
+.project-feature.feature-reverse .feature-content {
+    order: 1;
+}
+
+
+/* ========================================
+PROJECT NOT FOUND
+======================================== */
+
+.project-not-found {
+    min-height: 80vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.project-not-found h1 {
+    margin-bottom: 1rem;
+
+    font-size: 3rem;
+}
+
+.project-not-found p {
+    margin-bottom: 2rem;
+
+    color: #9da3b0;
+}
+
+.project-not-found a {
+    color: #f5f5f5;
+
+    text-decoration: none;
+
+    transition: opacity 0.3s ease;
+}
+
+.project-not-found a:hover {
+    opacity: 0.7;
+}
+
+
+/* ========================================
+TABLET
+======================================== */
+
+@media (max-width: 900px) {
+
+    .project-header h1 {
+        font-size: 4rem;
+    }
+
+
+    .project-description {
+        grid-template-columns: 1fr;
+
+        gap: 3rem;
+
+        text-align: center;
+    }
+
+
+    .project-logo img {
+        max-width: 300px;
+    }
+
+
+    .project-feature {
+        grid-template-columns: 1fr;
+
+        gap: 2rem;
+    }
+
+
+    .project-feature.feature-reverse .feature-media {
+        order: 1;
+    }
+
+    .project-feature.feature-reverse .feature-content {
+        order: 2;
+    }
+
+
+    .feature-content {
+        padding: 0 1rem;
+
+        text-align: center;
+    }
+
+}
+
+
+/* ========================================
+MOBILE
+======================================== */
+
+@media (max-width: 600px) {
+
+    #project-page {
+        padding-top: 80px;
+    }
+
+
+    .project-header {
+        min-height: 35vh;
+
+        padding: 5rem 1.5rem 3rem;
+    }
+
+
+    .project-header h1 {
+        font-size: 3rem;
+    }
+
+
+    .project-details {
+        font-size: 1rem;
+
+        line-height: 1.6;
+    }
+
+
+    .project-description {
+        width: 90%;
+
+        margin-top: 6rem;
+    }
+
+
+    .project-description-text {
+        font-size: 1rem;
+    }
+
+
+    .project-link {
+        margin: 4rem auto;
+    }
+
+
+    .itch-button {
+        padding: 0.55rem 1.5rem;
+
+        font-size: 0.95rem;
+    }
+
+
+    .project-contribution {
+        width: 90%;
+
+        margin-bottom: 7rem;
+    }
+
+
+    .project-contribution h2 {
+        font-size: 1.8rem;
+    }
+
+
+    .project-contribution p {
+        font-size: 1rem;
+    }
+
+
+    .project-features {
+        width: 92%;
+
+        gap: 6rem;
+
+        padding-bottom: 6rem;
+    }
+
+
+    .feature-content h2 {
+        font-size: 2rem;
+    }
+
+
+    .feature-content p {
+        font-size: 1rem;
+    }
+
+}

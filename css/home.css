@@ -1,0 +1,241 @@
+/* =========================
+   INTRO
+========================= */
+
+.intro {
+    position: relative;
+
+    min-height: 80vh;
+    width: 100%;
+
+    background-image: url("../images/home/Final_Background_Portfolio_color_v2.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================
+   INTRO CONTENT
+========================= */
+
+.intro-content {
+    text-align: center;
+
+    /* Permet de placer légèrement le contenu
+       vers le haut de l'écran */
+    margin-top: -30vh;
+}
+
+.intro-content h1 {
+    margin: 0 0 1rem;
+
+    font-size: 4rem;
+    font-weight: 600;
+
+    color: #f5f5f5;
+}
+
+.intro-content p {
+    margin: 0;
+
+    font-size: 2rem;
+    font-weight: 400;
+
+    color: #9da3b0;
+}
+
+
+/* =========================
+   PROJECTS
+========================= */
+
+.projects {
+    position: relative;
+
+    min-height: 100vh;
+
+    background: #091125;
+
+    padding: 5vh 5vw;
+}
+
+
+/* =========================
+   PROJECTS GRID
+========================= */
+
+.projects-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2rem;
+
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+}
+
+
+/* =========================
+   PROJECT CARD
+========================= */
+
+.project-card {
+    height: 600px;
+
+    background: #060B18;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    color: #f5f5f5;
+
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+
+/* =========================
+   PROJECT IMAGE
+========================= */
+
+.project-image {
+    height: 60%;
+
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* =========================
+   PROJECT INFO
+========================= */
+
+.project-info {
+    height: 40%;
+
+    padding: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.project-info h3 {
+    margin: 0 0 0.5rem;
+
+    font-size: 1.4rem;
+    font-weight: 600;
+
+    text-align: center;
+}
+
+.project-info h4 {
+    margin: 0.15rem 0;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    text-align: center;
+}
+
+.project-info p {
+    margin: 0.15rem 0;
+
+    font-size: 0.9rem;
+
+    color: #9da3b0;
+
+    text-align: center;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-card {
+        height: 550px;
+    }
+
+    .intro-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .intro-content p {
+        font-size: 1.7rem;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .intro {
+        min-height: 100vh;
+
+        background-attachment: scroll;
+    }
+
+    .intro-content {
+        margin-top: -20vh;
+    }
+
+    .intro-content h1 {
+        font-size: 2.8rem;
+    }
+
+    .intro-content p {
+        font-size: 1.3rem;
+    }
+
+
+    .projects {
+        padding: 5vh 5vw;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+
+        gap: 1.5rem;
+    }
+
+    .project-card {
+        height: 500px;
+    }
+}
