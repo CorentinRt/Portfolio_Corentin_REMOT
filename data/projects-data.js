@@ -336,13 +336,13 @@ const projects = [
         gameplayVideos: [
             {
                 type: "local",
-                url: "images/Projects/OutOfContROLL/OutOfContROLL!-Gameplay.mp4",
+                url: "images/Projects/OutOfContROLL/OutofContROLL!-Gameplay.mp4",
                 ratio: "16 / 9"
             },
 
             {
                 type: "local",
-                url: "images/Projects/OutOfContROLL/OutOfContROLL!-Trailer.mp4",
+                url: "images/Projects/OutOfContROLL/OutofContROLL!-Trailer.mp4",
                 ratio: "16 / 9"
             }
         ],
