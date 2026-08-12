@@ -6,7 +6,7 @@ const projects = [
 
         id: "songvoid",
         title: "SongVoid",
-        image: "images/projects/SongVoid/T_Couverture_SongVoid.png",
+        image: "images/Projects/SongVoid/T_Couverture_SongVoid.png",
         date: "January, 2026",
         details: "Solo Project | 3 months | Unity 6 | Strategy & Skirmish",
         feature: "All Gameplay mechanics - Gamefeel - Tools - Tech Art",
@@ -14,7 +14,7 @@ const projects = [
 
         /*---- Project Page */
 
-        logo: "images/projects/SongVoid/T_Logo_SongVoid.png",
+        logo: "images/Projects/SongVoid/T_Logo_SongVoid.png",
 
         description: [
             "SongVoid is a narrative-driven single-player strategy and skirmish game. It takes place in a medieval fantasy universe.",
@@ -76,7 +76,7 @@ const projects = [
                     "All the tweaking data for the generation can be modified through ScriptableObjects to avoid having to go into the code when making changes.",
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_MapGeneration_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_MapGeneration_Gif_Opti.gif"
             },
 
             {
@@ -97,7 +97,7 @@ const projects = [
                     "In addition, the visuals react to the status of the unit, such as the number of troops still alive, for example."
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_UnitsBehaviour_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_UnitsBehaviour_Gif_Opti.gif"
             },
 
             {
@@ -114,7 +114,7 @@ const projects = [
                     "I therefore paid particular attention to this aspect in order to add clear feedbacks and a pleasant game feel, notably by adding sounds and visual effects, which were made easier to implement thanks to 'Command Actions' (see above).",
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_FightSystem_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_FightSystem_Gif_Opti.gif"
             },
 
             {
@@ -133,7 +133,7 @@ const projects = [
                     "I really enjoyed setting up this structure, and it allowed me to perfectly manage the entire level flow from the editor, which is one of my goals : to have maximum control over the game without having to go through the code once the system has been developed."
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_LevelController_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_LevelController_Gif_Opti.gif"
             },
 
             {
@@ -156,7 +156,7 @@ const projects = [
                     "Using this data, the level is then set up, and all the systems perform their tasks according to it."
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_GameLoop_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_GameLoop_Gif_Opti.gif"
             },
 
             {
@@ -175,7 +175,7 @@ const projects = [
                     "Finally, the implementation of a polished architecture throughout the project helped me a lot here, as it was then very easy for me to inform the AI of the state of the game and give it access to the various game resources in order to evaluate and carry out its actions."
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_AIController_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_AIController_Gif_Opti.gif"
             },
 
             {
@@ -194,7 +194,7 @@ const projects = [
                     "The graph thus created is then converted into a ScriptableObject and processed by a 'Dialogue Controller' and a 'Dialogue Displayer', both of which are highly customisable."
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_Dialogs_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_Dialogs_Gif_Opti.gif"
             },
 
             {
@@ -217,7 +217,7 @@ const projects = [
                     "It is completely independent of the project, which is why I made it into a personal package so that I can reuse it in future projects."
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_CommandActions_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_CommandActions_Gif_Opti.gif"
             },
 
             {
@@ -234,7 +234,7 @@ const projects = [
                     "The biggest challenge here was to make it accessible in the editor and easy to implement."
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_ProgressionPoints_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_ProgressionPoints_Gif_Opti.gif"
             },
 
             {
@@ -249,7 +249,7 @@ const projects = [
                     "The only elements that need to be recreated for each project are the states themselves. As for initialising the state machine, states, and transition management, everything is already taken care of."
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_StateMachine_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_StateMachine_Gif_Opti.gif"
             },
 
             {
@@ -266,7 +266,7 @@ const projects = [
                     "Combined with the 'Command Actions' design pattern, it becomes extremely quick to influence sounds just in the editor."
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_Audio_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_Audio_Gif_Opti.gif"
             },
 
             {
@@ -283,7 +283,7 @@ const projects = [
                     "I have improved its ease of use and capabilities."
                 ],
 
-                media: "images/projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_UIAnimator_Gif_Opti.gif"
+                media: "images/Projects/SongVoid/SongVoid_Gifs/Gifs_Opti/SongVoid_Portfolio_UIAnimator_Gif_Opti.gif"
             }
 
             //#endregion
@@ -297,13 +297,13 @@ const projects = [
 
         id: "out-of-controll",
         title: "Out of ContROLL",
-        image: "images/projects/OutofContROLL/T_Couverture_OutOfContROLL.png",
+        image: "images/Projects/OutOfContROLL/T_Couverture_OutOfContROLL.png",
         date: "December, 2024",
         details: "Group 11 | 3 months | Unreal Engine | C++ | Blueprint | Couch Game",
         feature: "Gameplay - Gamefeel - Juiciness - Game Loop",
         categories: ["main", "home"],
 
-        logo: "images/projects/OutofContROLL/T_Logo_Out_of_Controll.png",
+        logo: "images/Projects/OutOfContROLL/T_Logo_Out_of_Controll.png",
 
         description: [
             "Out of ContROLL is a fast-paced party game set in a vibrant pinball-inspired carnival world where players take on the role of bouncing pinballs. ",
@@ -336,13 +336,13 @@ const projects = [
         gameplayVideos: [
             {
                 type: "local",
-                url: "images/Projects/OutOfContROLL/OutofContROLL!-Gameplay.mp4",
+                url: "images/Projects/OutOfContROLL/OutOfContROLL!-Gameplay.mp4",
                 ratio: "16 / 9"
             },
 
             {
                 type: "local",
-                url: "images/Projects/OutOfContROLL/OutofContROLL!-Trailer.mp4",
+                url: "images/Projects/OutOfContROLL/OutOfContROLL!-Trailer.mp4",
                 ratio: "16 / 9"
             }
         ],
@@ -365,7 +365,7 @@ const projects = [
                     "This means that the ball moves with the friction of its physic material as it rolls. However, I added a lot of customisable values for the game designers so that they could customise the movement as they wished and not be constrained by the engine's physics."
                 ],
 
-                media: "images/projects/OutOfContROLL/Gifs/GifsOpti/PlayersActionsStateMachine-min.gif"
+                media: "images/Projects/OutOfContROLL/Gifs/GifsOpti/PlayersActionsStateMachine-min.gif"
             },
 
             {
@@ -386,7 +386,7 @@ const projects = [
                     "All these elements can be fully customised by the game designers using several data assets."
                 ],
 
-                media: "images/projects/OutOfContROLL/Gifs/GifsOpti/LDElements-min.gif"
+                media: "images/Projects/OutOfContROLL/Gifs/GifsOpti/LDElements-min.gif"
             },
 
             {
@@ -401,7 +401,7 @@ const projects = [
                     "All the values are fully customisable by the game designers. This system also allows them to preview the maximum and minimum zoom from the editor, as well as defining the camera limits via a camera bound in the level."
                 ],
 
-                media: "images/projects/OutOfContROLL/Gifs/GifsOpti/Camera-min.gif"
+                media: "images/Projects/OutOfContROLL/Gifs/GifsOpti/Camera-min.gif"
             },
 
             {
@@ -418,7 +418,7 @@ const projects = [
                     "The rounds and phases can also be customised by the game designers using data assets."
                 ],
 
-                media: "images/projects/OutOfContROLL/Gifs/GifsOpti/RoundAndGameloop-min.gif"
+                media: "images/Projects/OutOfContROLL/Gifs/GifsOpti/RoundAndGameloop-min.gif"
             },
 
             {
@@ -435,7 +435,7 @@ const projects = [
                     "This reset is called each time a round changes."
                 ],
 
-                media: "images/projects/OutOfContROLL/Gifs/GifsOpti/ResetObjects-min.gif"
+                media: "images/Projects/OutOfContROLL/Gifs/GifsOpti/ResetObjects-min.gif"
             },
 
             {
@@ -452,7 +452,7 @@ const projects = [
                     "All power-ups are fully customizable by the game designers using data assets."
                 ],
 
-                media: "images/projects/OutOfContROLL/Gifs/GifsOpti/PowerUp-min.gif"
+                media: "images/Projects/OutOfContROLL/Gifs/GifsOpti/PowerUp-min.gif"
             },
 
             {
@@ -469,7 +469,7 @@ const projects = [
                     "All these elements can be customized by game designers using data assets or curves, so that they can control the game's feel."
                 ],
 
-                media: "images/projects/OutOfContROLL/Gifs/GifsOpti/GameFeelEffects.gif"
+                media: "images/Projects/OutOfContROLL/Gifs/GifsOpti/GameFeelEffects.gif"
             },
 
             {
@@ -484,7 +484,7 @@ const projects = [
                     "This system is derived from Unreal Engine's game viewport class, to make it easier to collect inputs from different players."
                 ],
 
-                media: "images/projects/OutOfContROLL/Gifs/GifsOpti/LocalMulti-min.gif"
+                media: "images/Projects/OutOfContROLL/Gifs/GifsOpti/LocalMulti-min.gif"
             },
 
             {
@@ -503,7 +503,7 @@ const projects = [
                     "Finally, I used Unreal Engine's audio mix to create several Sound Classes and simplify the modification of the sound volume of the different classes in the settings."
                 ],
 
-                media: "images/projects/OutOfContROLL/Gifs/GifsOpti/SoundSystem-min.gif"
+                media: "images/Projects/OutOfContROLL/Gifs/GifsOpti/SoundSystem-min.gif"
             }
             
             //#endregion
@@ -516,13 +516,13 @@ const projects = [
         //#region Liberty Express
         id: "liberty-express",
         title: "Liberty Express",
-        image: "images/projects/LibertyExpress/T_Couverture_LibertyExpress.png",
+        image: "images/Projects/LibertyExpress/T_Couverture_LibertyExpress.png",
         date: "June, 2024",
         details: "Group 8 | 1 month | Unreal Engine | Blueprint | FPS",
         feature: "Gameplay - Gamefeel - Juiciness - AI",
         categories: ["main", "home"],
 
-        logo: "images/projects/LibertyExpress/T_Logo_Liberty_Express.png",
+        logo: "images/Projects/LibertyExpress/T_Logo_Liberty_Express.png",
 
         description: [
             "Liberty Express is a narrative FPS where you follow the escape of Jack 'the Revolver' aboard a train besieged on all sides by the Sheriff's police drones. All aboard the train to freedom !",
@@ -572,7 +572,7 @@ const projects = [
                     "Drones can attack, die, move freely in 3D space (see below), etc. And all these mechanics come with their own polish elements, such as using physics and a tilted effect when the drones move, ragdoll when they die, etc."
                 ],
 
-                media: "images/projects/LibertyExpress/Gifs/GifsOpti/DroneAIPortfolio.gif"
+                media: "images/Projects/LibertyExpress/Gifs/GifsOpti/DroneAIPortfolio.gif"
             },
 
             {
@@ -591,7 +591,7 @@ const projects = [
                     "Finally, I added a system to prevent the game from soft-locking if a drone got stuck, so that it could still find its destination."
                 ],
 
-                media: "images/projects/LibertyExpress/Gifs/GifsOpti/PathfindingPortfolio.gif"
+                media: "images/Projects/LibertyExpress/Gifs/GifsOpti/PathfindingPortfolio.gif"
             },
 
             {
@@ -608,7 +608,7 @@ const projects = [
                     "Camera shake has also been added to enhance the effects of some sequences (train destruction, etc.)..."
                 ],
 
-                media: "images/projects/LibertyExpress/Gifs/GifsOpti/JuicinessGamefeelPortfolio.gif"
+                media: "images/Projects/LibertyExpress/Gifs/GifsOpti/JuicinessGamefeelPortfolio.gif"
             },
 
             {
@@ -629,7 +629,7 @@ const projects = [
                     "These techniques avoid the need to generate too many 3D models, and make the game run more smoothly."
                 ],
 
-                media: "images/projects/LibertyExpress/Gifs/GifsOpti/LoopDecorPortfolio.gif"
+                media: "images/Projects/LibertyExpress/Gifs/GifsOpti/LoopDecorPortfolio.gif"
             },
 
             {
@@ -644,7 +644,7 @@ const projects = [
                     "They can choose the spawn points for each phase, the number of enemies in each phase, the speed at which they appear, ..."
                 ],
 
-                media: "images/projects/LibertyExpress/Gifs/GifsOpti/WavesPortfolio.gif"
+                media: "images/Projects/LibertyExpress/Gifs/GifsOpti/WavesPortfolio.gif"
             },
 
             {
@@ -663,7 +663,7 @@ const projects = [
                     "We then had to trigger these Level Sequences, and modify the train's collisions and visuals at the right moments."
                 ],
 
-                media: "images/projects/LibertyExpress/Gifs/GifsOpti/LevelSequencesPortfolio.gif"
+                media: "images/Projects/LibertyExpress/Gifs/GifsOpti/LevelSequencesPortfolio.gif"
             },
 
             {
@@ -682,7 +682,7 @@ const projects = [
                     "Finally, I used Unreal Engine's audio mix to create several Sound Classes and simplify the modification of the sound volume of the different classes in the settings."
                 ],
 
-                media: "images/projects/LibertyExpress/Gifs/GifsOpti/SoundSystemPortfolio.gif"
+                media: "images/Projects/LibertyExpress/Gifs/GifsOpti/SoundSystemPortfolio.gif"
             },
 
             //#endregion
@@ -695,13 +695,13 @@ const projects = [
         //#region Wandering Traveller
         id: "wandering-traveller",
         title: "Wandering Traveller",
-        image: "images/projects/WanderingTraveller/T_Couverture_WanderingTraveller.jpg",
+        image: "images/Projects/WanderingTraveller/T_Couverture_WanderingTraveller.jpg",
         date: "January, 2024",
         details: "Group 2 | 4 months | Unity | Mobile | Clicker",
         feature: "Gameplay - Gamefeel - Juiciness - UI",
         categories: ["main", "home"],
 
-        logo: "images/projects/WanderingTraveller/T_Logo_Wandering_Traveller.jpg",
+        logo: "images/Projects/WanderingTraveller/T_Logo_Wandering_Traveller.jpg",
 
         description: [
             "Wandering Traveller puts you in the shoes of a mage captaining a ship that must be defended against enemy hordes. How far will you go ?",
@@ -741,7 +741,7 @@ const projects = [
                     "I also did a mana bar for casting spells and transition effects between rounds."
                 ],
 
-                media: "images/projects/WanderingTraveller/Gifs/GifsOpti/InterfaceSystemPortfolio-min.gif"
+                media: "images/Projects/WanderingTraveller/Gifs/GifsOpti/InterfaceSystemPortfolio-min.gif"
             },
 
             {
@@ -756,7 +756,7 @@ const projects = [
                     "The player can choose which spell to invoke, in addition to the element type, to optimize the damage inflicted."
                 ],
 
-                media: "images/projects/WanderingTraveller/Gifs/GifsOpti/FightingSystemPortfolioWT-min.gif"
+                media: "images/Projects/WanderingTraveller/Gifs/GifsOpti/FightingSystemPortfolioWT-min.gif"
             },
 
             {
@@ -775,7 +775,7 @@ const projects = [
                     "Spell visuals adapt according to the level reached and the element selected."
                 ],
 
-                media: "images/projects/WanderingTraveller/Gifs/GifsOpti/UpgradeSystemPortfolio-min.gif"
+                media: "images/Projects/WanderingTraveller/Gifs/GifsOpti/UpgradeSystemPortfolio-min.gif"
             },
 
             {
@@ -790,7 +790,7 @@ const projects = [
                     "I also contributed to the addition of certain juiciness elements, such as the transitions between rounds and the experience particles instantiated when enemies die."
                 ],
 
-                media: "images/projects/WanderingTraveller/Gifs/GifsOpti/JuicinessGamefeelElement-min.gif"
+                media: "images/Projects/WanderingTraveller/Gifs/GifsOpti/JuicinessGamefeelElement-min.gif"
             },
 
             {
@@ -807,7 +807,7 @@ const projects = [
                     "In addition, a highscore system saves the highest number of rounds reached and displays it in a top 3 in the menu. These scores are saved even after you quit the game."
                 ],
 
-                media: "images/projects/WanderingTraveller/Gifs/GifsOpti/AudioHighScorePortfolioWT-min.gif"
+                media: "images/Projects/WanderingTraveller/Gifs/GifsOpti/AudioHighScorePortfolioWT-min.gif"
             },
 
             {
@@ -820,7 +820,7 @@ const projects = [
                     "Also, I looped the advancing clouds to make an infinite loop in the menu background."
                 ],
 
-                media: "images/projects/WanderingTraveller/Gifs/GifsOpti/MenuPortfolioWT-min.gif"
+                media: "images/Projects/WanderingTraveller/Gifs/GifsOpti/MenuPortfolioWT-min.gif"
             },
             //#endregion
         ]
@@ -832,13 +832,13 @@ const projects = [
         //#region Moonshine Murder
         id: "moonshine-murder",
         title: "Moonshine Murder",
-        image: "images/projects/MoonshineMurder/T_Couverture_MoonshineMurder.png",
+        image: "images/Projects/MoonshineMurder/T_Couverture_MoonshineMurder.png",
         date: "February, 2025",
         details: "Group 9 | 1 month | Unity | C# | Narrative Game",
         feature: "Lead programmer - Tool - Gameplay - Gamefeel - Juiciness - Game Loop",
         categories: ["main", "home"],
 
-        logo: "images/projects/MoonshineMurder/T_Logo_MoonshineMurder.png",
+        logo: "images/Projects/MoonshineMurder/T_Logo_MoonshineMurder.png",
 
         description: [
             "Moonshine Murder is a multiple-choice narrative game where you try to solve an investigation. Talk to the various regulars at your bar, dig into the discussion to uncover their secrets.",
@@ -888,7 +888,7 @@ const projects = [
                     "Therefore, the tool is suitable for multiple-choice games, rpg, etc., with several dialogs for different characters."
                 ],
 
-                media: "images/projects/MoonshineMurder/Gifs/GifsOpti/G_MM_ToolDialog.gif"
+                media: "images/Projects/MoonshineMurder/Gifs/GifsOpti/G_MM_ToolDialog.gif"
             },
 
             {
@@ -909,7 +909,7 @@ const projects = [
                     "This system also comes with another tool I created for the other programmers, a permanent ID assigner, which in this case allows me to find references to actions in the scene."
                 ],
 
-                media: "images/projects/MoonshineMurder/Gifs/GifsOpti/G_MM_ToolActionCaller.gif"
+                media: "images/Projects/MoonshineMurder/Gifs/GifsOpti/G_MM_ToolActionCaller.gif"
             },
 
             {
@@ -932,7 +932,7 @@ const projects = [
                     "All these systems combined make it a perfect tool for games with dialogs, that can support multiple choices, as in this game."
                 ],
 
-                media: "images/projects/MoonshineMurder/Gifs/GifsOpti/G_MM_ToolMultipleChoice.gif"
+                media: "images/Projects/MoonshineMurder/Gifs/GifsOpti/G_MM_ToolMultipleChoice.gif"
             },
 
             {
@@ -951,7 +951,7 @@ const projects = [
                     "All you have to do is trigger them with a Unity Event, for example, or a certain Action caller... (see above)."
                 ],
 
-                media: "images/projects/MoonshineMurder/Gifs/GifsOpti/G_MM_ToolVisualAnimTween.gif"
+                media: "images/Projects/MoonshineMurder/Gifs/GifsOpti/G_MM_ToolVisualAnimTween.gif"
             },
 
             {
@@ -970,7 +970,7 @@ const projects = [
                     "The system also works perfectly with the dialog tool, without the two being dependent on each other to avoid a complex architecture."
                 ],
 
-                media: "images/projects/MoonshineMurder/Gifs/GifsOpti/G_MM_Tool.gif"
+                media: "images/Projects/MoonshineMurder/Gifs/GifsOpti/G_MM_Tool.gif"
             },
 
             {
@@ -987,7 +987,7 @@ const projects = [
                     "The system then processes the sound, taking into account the parameters set in the data."
                 ],
 
-                media: "images/projects/MoonshineMurder/Gifs/GifsOpti/G_MM_SoundSystem.gif"
+                media: "images/Projects/MoonshineMurder/Gifs/GifsOpti/G_MM_SoundSystem.gif"
             }
             //#endregion
         ]
@@ -999,13 +999,13 @@ const projects = [
         //#region B4 it Ends
         id: "b4-it-ends",
         title: "B4_itEnds",
-        image: "images/projects/B4ItEnds/T_Couverture_B4ItEnds.png",
+        image: "images/Projects/B4ItEnds/T_Couverture_B4ItEnds.png",
         date: "May, 2024",
         details: "Group 11 | 1 month | Unity | Point and Click",
         feature: "Gameplay - Juiciness",
         categories: ["main"],
 
-        logo: "images/projects/B4ItEnds/T_Logo_B4ItEnds.png",
+        logo: "images/Projects/B4ItEnds/T_Logo_B4ItEnds.png",
 
         description: [
             "In B4_itEnds. , you play as the robot B4 who tries to keep alive his plants in a world where ressources are limited.",
@@ -1034,7 +1034,7 @@ const projects = [
         gameplayVideos: [
             {
                 type: "local",
-                url: "images/projects/B4ItEnds/Backup_Before_ItEnds_FHD.mp4",
+                url: "images/Projects/B4ItEnds/Backup_Before_ItEnds_FHD.mp4",
                 ratio: "16 / 9"
             }
         ],
@@ -1048,7 +1048,7 @@ const projects = [
                 description: [
                     ],
 
-                media: "images/projects/B4ItEnds/Gifs/GifsOpti/PlantsFrankentseinPlant_Opti.gif"
+                media: "images/Projects/B4ItEnds/Gifs/GifsOpti/PlantsFrankentseinPlant_Opti.gif"
             },
 
             {
@@ -1058,7 +1058,7 @@ const projects = [
                 description: [
                     ],
 
-                media: "images/projects/B4ItEnds/Gifs/GifsOpti/DissectionTranslantMenus_Opti.gif"
+                media: "images/Projects/B4ItEnds/Gifs/GifsOpti/DissectionTranslantMenus_Opti.gif"
             }
             //#endregion
         ]
@@ -1070,13 +1070,13 @@ const projects = [
         //#region Gloomies Enigma
         id: "gloomies-enigma",
         title: "Gloomies' Enigma",
-        image: "images/projects/GloomiesEnigma/T_Couverture_GloomiesEnigma.png",
+        image: "images/Projects/GloomiesEnigma/T_Couverture_GloomiesEnigma.png",
         date: "March, 2024",
         details: "Group 8 | 1 month | Unity | Mobile | Puzzle Game",
         feature: "Gameplay - Gamefeel - Google Play",
         categories: ["main", "home"],
 
-        logo: "images/projects/GloomiesEnigma/T_Logo_GloomiesEnigma.png",
+        logo: "images/Projects/GloomiesEnigma/T_Logo_GloomiesEnigma.png",
 
         description: [
             "Can you guide the Gloomies through a series of challenges in a futuristic laboratory ?",
@@ -1116,7 +1116,7 @@ const projects = [
                     "In order to obtain character movements subject to gravity while retaining a certain amount of control to limit randomness, I worked on a customized physics system allowing them to fall in a straight line or to generalize their trajectory when jumping."
                 ],
 
-                media: "images/projects/GloomiesEnigma/Gifs/GifsOpti/JumpGloomies-min.gif"
+                media: "images/Projects/GloomiesEnigma/Gifs/GifsOpti/JumpGloomies-min.gif"
             },
 
             {
@@ -1133,7 +1133,7 @@ const projects = [
                     "I also worked on bonus game feel elements such as transition effects on the change of gravity or the jumper's trajectory circle."
                 ],
 
-                media: "images/projects/GloomiesEnigma/Gifs/GifsOpti/portfolioApercuBonus-min.gif"
+                media: "images/Projects/GloomiesEnigma/Gifs/GifsOpti/portfolioApercuBonus-min.gif"
             },
 
             {
@@ -1150,7 +1150,7 @@ const projects = [
                     "It also includes a grid system and clamps objects to it."
                 ],
 
-                media: "images/projects/GloomiesEnigma/Gifs/GifsOpti/dragDropPortfolio-min.gif"
+                media: "images/Projects/GloomiesEnigma/Gifs/GifsOpti/dragDropPortfolio-min.gif"
             },
 
             {
@@ -1165,7 +1165,7 @@ const projects = [
                     "In addition, I managed the technical side of publishing the game on the play store, as well as the various updates before the final version of the game arrived."
                 ],
 
-                media: "images/projects/GloomiesEnigma/Gifs/GifsOpti/PlayGamesGloomies-min.gif"
+                media: "images/Projects/GloomiesEnigma/Gifs/GifsOpti/PlayGamesGloomies-min.gif"
             },
             //#endregion
         ]
@@ -1177,13 +1177,13 @@ const projects = [
         //#region Sweet On Peg
         id: "sweet-on-peg",
         title: "Sweet On Peg",
-        image: "images/projects/SweetOnPeg/T_Couverture_SweetOnPeg.png",
+        image: "images/Projects/SweetOnPeg/T_Couverture_SweetOnPeg.png",
         date: "October, 2023",
         details: "Group 5 | 1 week | Unity | Brick-Breaker",
         feature: "Gameplay - Gamefeel - Juiciness",
         categories: ["main", "home"],
 
-        logo: "images/projects/SweetOnPeg/T_Couverture_SweetOnPeg.png",
+        logo: "images/Projects/SweetOnPeg/T_Couverture_SweetOnPeg.png",
 
         description: [
             "Sweet on Peg is a reverse brick-breaker. Here you'll have powers to help you break all the bricks.",
@@ -1208,7 +1208,7 @@ const projects = [
         gameplayVideos: [
             {
                 type: "local",
-                url: "images/projects/SweetOnPeg/SweetOnPegDemo.mp4",
+                url: "images/Projects/SweetOnPeg/SweetOnPegDemo.mp4",
                 ratio: "16 / 9"
             }
         ],
@@ -1227,7 +1227,7 @@ const projects = [
                     "Each brick brings specific points. These points are then displayed on screen."
                 ],
 
-                media: "images/projects/SweetOnPeg/Gifs/GifsOpti/DestroyBricks.gif"
+                media: "images/Projects/SweetOnPeg/Gifs/GifsOpti/DestroyBricks.gif"
             },
 
             {
@@ -1240,7 +1240,7 @@ const projects = [
                     "For example, green bricks (+1) add a ball to throw, x2 bricks give twice as many points as a normal brick and you have to destroy all orange bricks to win the game."
                 ],
 
-                media: "images/projects/SweetOnPeg/Gifs/GifsOpti/BricksPowerPortfolio.gif"
+                media: "images/Projects/SweetOnPeg/Gifs/GifsOpti/BricksPowerPortfolio.gif"
             },
 
             {
@@ -1255,7 +1255,7 @@ const projects = [
                     "The music also speeds up according to the number of bricks hit."
                 ],
 
-                media: "images/projects/SweetOnPeg/Gifs/GifsOpti/JuicinessSweetPortfolio.gif"
+                media: "images/Projects/SweetOnPeg/Gifs/GifsOpti/JuicinessSweetPortfolio.gif"
             }
             //#endregion
         ]
@@ -1266,13 +1266,13 @@ const projects = [
         //#region Prologue
         id: "prologue",
         title: "Prologue",
-        image: "images/projects/Prologue/T_Couverture_Prologue.jpg",
+        image: "images/Projects/Prologue/T_Couverture_Prologue.jpg",
         date: "June, 2023",
         details: "Solo Project | 6 months | Unity | Platformer",
         feature: "Gameplay - Gamefeel - Juiciness - UI",
         categories: ["main"],
 
-        logo: "images/projects/Prologue/T_Couverture_Prologue.jpg",
+        logo: "images/Projects/Prologue/T_Couverture_Prologue.jpg",
 
         description: [
             "Prologue is a single-player platform adventure game on PC in which you play a knight who can travel between different ages.",
@@ -1310,7 +1310,7 @@ const projects = [
                     "Since combat is essentially based on timing, and combat is recurrent throughout the game, the system needs to be rigorous from a technical point of view to give the player a good feel for the game and make combat more nervous. Therefore, it's a system that got my full attention."
                 ],
 
-                media: "images/projects/Prologue/Gifs/GifsOpti/portfolioFightingSystemP-min.gif"
+                media: "images/Projects/Prologue/Gifs/GifsOpti/portfolioFightingSystemP-min.gif"
             },
 
             {
@@ -1333,7 +1333,7 @@ const projects = [
                     "They also have the ability to attack as described above."
                 ],
 
-                media: "images/projects/Prologue/Gifs/GifsOpti/PortfolioEnemyBehavior-min.gif"
+                media: "images/Projects/Prologue/Gifs/GifsOpti/PortfolioEnemyBehavior-min.gif"
             },
 
             {
@@ -1352,7 +1352,7 @@ const projects = [
                     "So this mechanic also got my full attention."
                 ],
 
-                media: "images/projects/Prologue/Gifs/GifsOpti/TimeTravelling-min.gif"
+                media: "images/Projects/Prologue/Gifs/GifsOpti/TimeTravelling-min.gif"
             },
 
             {
@@ -1367,7 +1367,7 @@ const projects = [
                     "The inventory is then updated every time an item is collected, and the player can consult it in the bottom right-hand corner of the screen."
                 ],
 
-                media: "images/projects/Prologue/Gifs/GifsOpti/PortfolioShopUpgradeP-min.gif"
+                media: "images/Projects/Prologue/Gifs/GifsOpti/PortfolioShopUpgradeP-min.gif"
             },
 
             {
@@ -1382,7 +1382,7 @@ const projects = [
                     "The dash has received a little more attention from me, so that it fits in as well as possible with the combat system (for example, to make the handling of the back dash more intuitive). The player can now dodge attacks instead of deflecting them."
                 ],
 
-                media: "images/projects/Prologue/Gifs/GifsOpti/PortfolioSkillsP-min.gif"
+                media: "images/Projects/Prologue/Gifs/GifsOpti/PortfolioSkillsP-min.gif"
             },
             //#endregion
         ]
@@ -1397,13 +1397,13 @@ const projects = [
         //#region  Plie d'avance
         id: "plie-d-avance",
         title: "Plié d'avance",
-        image: "images/projects/PlieDAvance/T_Couverture_PlieDAvance.png",
+        image: "images/Projects/PlieDAvance/T_Couverture_PlieDAvance.png",
         date: "Septembre, 2024",
         details: "Group 8 |  4 days | Unity | Chase",
         feature: "Lead programmer - Gameplay - Gamefeel - Juiciness",
         categories: ["side", "jams"],
 
-        logo: "images/projects/PlieDAvance/T_Logo_PlieDAvance.png",
+        logo: "images/Projects/PlieDAvance/T_Logo_PlieDAvance.png",
 
         description: [
             "In Plié d'avance you play either as a pyjama or as a steam iron thrown in the ironing pit. Who will survive ?",
@@ -1447,7 +1447,7 @@ const projects = [
                     "I also added an acceleration and deceleration system to smooth its moving off and give inertia to the rotation. In order to speed the process, I used a RigidBody2D that I customized to respect these rules."
                 ],
 
-                media: "images/projects/PlieDAvance/Gifs/GifsOpti/IronSteamBehaviorGif-opti.gif"
+                media: "images/Projects/PlieDAvance/Gifs/GifsOpti/IronSteamBehaviorGif-opti.gif"
             },
 
             {
@@ -1462,7 +1462,7 @@ const projects = [
                     "I decided to use a line renderer that I customized in order to add and remove points easily while calculating collision. I added customizable parameters to control the size of the line and the precision of the collision detection."
                 ],
 
-                media: "images/projects/PlieDAvance/Gifs/GifsOpti/LavaLineGif-opti.gif"
+                media: "images/Projects/PlieDAvance/Gifs/GifsOpti/LavaLineGif-opti.gif"
             },
 
             {
@@ -1475,7 +1475,7 @@ const projects = [
                     "Furthermore, I created an easy to use system to smooth UI animations and add transitions that the other programmers and designers worked with."
                 ],
 
-                media: "images/projects/PlieDAvance/Gifs/GifsOpti/GameFeelGif-opti.gif"
+                media: "images/Projects/PlieDAvance/Gifs/GifsOpti/GameFeelGif-opti.gif"
             },
 
             {
@@ -1488,7 +1488,7 @@ const projects = [
                     "In order to make these systems easy to understand I needed to be clear in my organization by adding easy to use events, while being quick in this setup in order to focus on other mecanics."
                 ],
 
-                media: "images/projects/PlieDAvance/Gifs/GifsOpti/GameLoopGif-opti.gif"
+                media: "images/Projects/PlieDAvance/Gifs/GifsOpti/GameLoopGif-opti.gif"
             },
 
             {
@@ -1503,7 +1503,7 @@ const projects = [
                     "For this I used the Audio Mixer system of Unity and a lot of Scriptable Objects to gather all sound's data."
                 ],
 
-                media: "images/projects/PlieDAvance/Gifs/GifsOpti/AudioSystemGif-opti.gif"
+                media: "images/Projects/PlieDAvance/Gifs/GifsOpti/AudioSystemGif-opti.gif"
             }
             //#endregion
         ]
@@ -1515,13 +1515,13 @@ const projects = [
         //#region Bond
         id: "bond",
         title: "Bond",
-        image: "images/projects/Bond/T_Couverture_Bond.jpg",
+        image: "images/Projects/Bond/T_Couverture_Bond.jpg",
         date: "December, 2023",
         details: "Group 3 |  3 weeks | SFML | C++",
         feature: "Physics - Collision - Gameplay - Juiciness",
         categories: ["side"],
 
-        logo: "images/projects/Bond/T_Couverture_Bond.jpg",
+        logo: "images/Projects/Bond/T_Couverture_Bond.jpg",
 
         description: [
             "Bond is a 2D infiltration game in top-down view.",
@@ -1544,7 +1544,7 @@ const projects = [
         gameplayVideos: [
             {
                 type: "local",
-                url: "images/projects/Bond/BondDemo.mp4",
+                url: "images/Projects/Bond/BondDemo.mp4",
                 ratio: "16 / 9"
             }
         ],
@@ -1565,7 +1565,7 @@ const projects = [
                     "The system also includes bullet detection, so that if the bullet hits a wall or an actor, it is destroyed and the actor recovers the information about having been hit."
                 ],
 
-                media: "images/projects/Bond/Gifs/GifsOpti/PortfolioCollisionB-min.gif"
+                media: "images/Projects/Bond/Gifs/GifsOpti/PortfolioCollisionB-min.gif"
             },
 
             {
@@ -1580,7 +1580,7 @@ const projects = [
                     "This made it possible to add juiciness and create three particle presets for the game: blood when an actor is shot, bullet impact on walls, and sparks from the gun when a bullet is fired."
                 ],
 
-                media: "images/projects/Bond/Gifs/GifsOpti/PortfolioParticleSystemB-min.gif"
+                media: "images/Projects/Bond/Gifs/GifsOpti/PortfolioParticleSystemB-min.gif"
             },
 
             {
@@ -1595,7 +1595,7 @@ const projects = [
                     "Furthermore, when the player is hit by a bullet, he takes damage and dies if he has no life points left."
                 ],
 
-                media: "images/projects/Bond/Gifs/GifsOpti/portfolioPlayerB-min.gif"
+                media: "images/Projects/Bond/Gifs/GifsOpti/portfolioPlayerB-min.gif"
             },
 
             {
@@ -1612,7 +1612,7 @@ const projects = [
                     "When the game is over, a menu appears over the entire screen, indicating the end of the game."
                 ],
 
-                media: "images/projects/Bond/Gifs/GifsOpti/PortfolioVictoryDefeatB-min.gif"
+                media: "images/Projects/Bond/Gifs/GifsOpti/PortfolioVictoryDefeatB-min.gif"
             }
             //#endregion
         ]
@@ -1624,13 +1624,13 @@ const projects = [
         //#region Modding
         id: "modding",
         title: "Modding",
-        image: "images/projects/Modding/T_Couverture_Modding.png",
+        image: "images/Projects/Modding/T_Couverture_Modding.png",
         date: "November, 2023",
         details: "Solo |  1 month | Modding",
         feature: "Gameplay",
         categories: ["side"],
 
-        logo: "images/projects/Modding/T_Logo_Modding.png",
+        logo: "images/Projects/Modding/T_Logo_Modding.png",
 
         description: [
             "This project was a part of my second year of studies at IIM.",
@@ -1666,7 +1666,7 @@ const projects = [
                     "These companions can die, in which case the player must heal to bring them back to life."
                 ],
 
-                media: "images/projects/Modding/Gifs/GifsOpti/portoflioCrawlerBirdHKM-min.gif"
+                media: "images/Projects/Modding/Gifs/GifsOpti/portoflioCrawlerBirdHKM-min.gif"
             },
 
             {
@@ -1681,7 +1681,7 @@ const projects = [
                     "The one that required the most attention was the teleportation attack, which requires great precision to keep the combat dynamic and avoid the player crashing into a wall."
                 ],
 
-                media: "images/projects/Modding/Gifs/GifsOpti/portoflioAttacksHKM-min.gif"
+                media: "images/Projects/Modding/Gifs/GifsOpti/portoflioAttacksHKM-min.gif"
             }
             //#endregion
         ]
@@ -1693,13 +1693,13 @@ const projects = [
         //#region Progtober
         id: "progtober",
         title: "Progtober Prototypes",
-        image: "images/projects/Progtober/T_Couverture_Progtober.png",
+        image: "images/Projects/Progtober/T_Couverture_Progtober.png",
         date: "October, 2023",
         details: "Solo |  1 month | Unity | Prototypes",
         feature: "Gameplay - Gamefeel",
         categories: ["side"],
 
-        logo: "images/projects/Progtober/T_Logo_Progtober.jpg",
+        logo: "images/Projects/Progtober/T_Logo_Progtober.jpg",
 
         description: [
             "Progtober (programming + october) brings together many different prototypes of gameplay mechanics made in a short period of time.",
@@ -1739,7 +1739,7 @@ const projects = [
                     "The main difficulty was to find the right values for the vehicle's physics, so as to give a pleasant feeling of control."
                 ],
 
-                media: "images/projects/Progtober/Gifs/GifsOpti/portfolioCarSQ-min.gif"
+                media: "images/Projects/Progtober/Gifs/GifsOpti/portfolioCarSQ-min.gif"
             },
 
             {
@@ -1752,7 +1752,7 @@ const projects = [
                     "These include the ability to carry different weapons, each with their own particularities (number of bullets, fire's rate, ...), game feel elements such as recoil and reload animations done in code on the revolver, a grenade that can bounce off walls before exploding, bullet impacts on walls and particles that change depending on the nature of the object hit to add feedback."
                 ],
 
-                media: "images/projects/Progtober/Gifs/GifsOpti/portfolioFpsSq-min.gif"
+                media: "images/Projects/Progtober/Gifs/GifsOpti/portfolioFpsSq-min.gif"
             },
 
             {
@@ -1767,7 +1767,7 @@ const projects = [
                     "As it can't record an infinite amount of data, the ability to go back in time is limited."
                 ],
 
-                media: "images/projects/Progtober/Gifs/GifsOpti/portfolioTimeSq-min.gif"
+                media: "images/Projects/Progtober/Gifs/GifsOpti/portfolioTimeSq-min.gif"
             },
 
             {
@@ -1782,7 +1782,7 @@ const projects = [
                     "I then added a character controlled by Unity's NavMesh system, which will then navigate the character through the maze to the destination selected by my mouse."
                 ],
 
-                media: "images/projects/Progtober/Gifs/GifsOpti/portfolioMazeSQ-min.gif"
+                media: "images/Projects/Progtober/Gifs/GifsOpti/portfolioMazeSQ-min.gif"
             },
 
             {
@@ -1795,7 +1795,7 @@ const projects = [
                     "The game features balls bouncing off the edges and against each other, a billiard stick that lets you adjust the power and direction of the shot, and a way to make the balls fall into the holes in the table."
                 ],
 
-                media: "images/projects/Progtober/Gifs/GifsOpti/portfolioPoolSq-min.gif"
+                media: "images/Projects/Progtober/Gifs/GifsOpti/portfolioPoolSq-min.gif"
             },
 
             {
@@ -1806,7 +1806,7 @@ const projects = [
                     "Here I've been practicing some nice mechanics from games I've already seen. There's a ball-throwing system to destroy a building in front of you, the possibility of stacking cubes in a three-dimensional grid, a game of bubbles to connect in order to destroy them, and some experimentation with Unity features that I had just discovered."
                 ],
 
-                media: "images/projects/Progtober/Gifs/GifsOpti/portfolioVariousSq-min.gif"
+                media: "images/Projects/Progtober/Gifs/GifsOpti/portfolioVariousSq-min.gif"
             },
 
             {
@@ -1821,7 +1821,7 @@ const projects = [
                     "However, for the side shooter, I chose to make a static player, inspired by other games."
                 ],
 
-                media: "images/projects/Progtober/Gifs/GifsOpti/portfolioTopSideSq-min.gif"
+                media: "images/Projects/Progtober/Gifs/GifsOpti/portfolioTopSideSq-min.gif"
             }
             //#endregion
         ]
@@ -1832,13 +1832,13 @@ const projects = [
         //#region  Tiny Mysteries
         id: "tiny-mysteries",
         title: "Tiny Mysteries",
-        image: "images/projects/TinyMysteries/T_Couverture_TinyMysteries.png",
+        image: "images/Projects/TinyMysteries/T_Couverture_TinyMysteries.png",
         date: "October, 2023",
         details: "Group 3 |  2 days | Jam | Unity | Puzzle Game",
         feature: "Gameplay - Gamefeel",
         categories: ["side", "jams"],
 
-        logo: "images/projects/TinyMysteries/T_Couverture_TinyMysteries.png",
+        logo: "images/Projects/TinyMysteries/T_Couverture_TinyMysteries.png",
 
         description: [
             "Tiny Mysteries is a 3D puzzle Game. You'll have to venture into three different rooms to escape. Each room has its own puzzle mechanic. How long will it take you to escape ?",
@@ -1876,7 +1876,7 @@ const projects = [
                     "This mechanic can be found in several of the three levels, as it is necessary for solving the puzzles."
                 ],
 
-                media: "images/projects/TinyMysteries/Gifs/GifsOpti/portfolioInspectionSystemTM-min.gif"
+                media: "images/Projects/TinyMysteries/Gifs/GifsOpti/portfolioInspectionSystemTM-min.gif"
             },
 
             {
@@ -1891,7 +1891,7 @@ const projects = [
                     "The notepad is also fully navigable using a variant of the inspection system."
                 ],
 
-                media: "images/projects/TinyMysteries/Gifs/GifsOpti/portfolioThirdPuzzleTM-min.gif"
+                media: "images/Projects/TinyMysteries/Gifs/GifsOpti/portfolioThirdPuzzleTM-min.gif"
             }
             //#endregion
         ]
@@ -1902,13 +1902,13 @@ const projects = [
         //#region DartNDustry
         id: "dart-n-dustry",
         title: "Dart N' Dustry",
-        image: "images/projects/DartNDustry/T_Couverture_DartNDustry.png",
+        image: "images/Projects/DartNDustry/T_Couverture_DartNDustry.png",
         date: "September, 2023",
         details: "Group 9 |  4 days | Jam | Unity",
         feature: "Gameplay - Camera",
         categories: ["side", "jams"],
 
-        logo: "images/projects/DartNDustry/T_Couverture_DartNDustry.png",
+        logo: "images/Projects/DartNDustry/T_Couverture_DartNDustry.png",
 
         description: [
             "Dart N Dustries is a puzzle game where you play as a robot inspector who controls the robots leaving the factory. You must accept the correct robots and reject the failing ones. The correct robots follow a patern described in the game manual.",
@@ -1935,7 +1935,7 @@ const projects = [
         gameplayVideos: [
             {
                 type: "local",
-                url: "images/projects/DartNDustry/V_DartNDustry_Gameplay.mp4",
+                url: "images/Projects/DartNDustry/V_DartNDustry_Gameplay.mp4",
                 ratio: "16 / 9"
             }
         ],
@@ -1954,7 +1954,7 @@ const projects = [
                     "The robot then knows whether it is malfunctioning or not when it is generated. This helps to know if the player win or lose points when he's rejecting or accepting the robot."
                 ],
 
-                media: "images/projects/DartNDustry/Gifs/GifsOpti/portfolioRobotGenerationDND-min.gif"
+                media: "images/Projects/DartNDustry/Gifs/GifsOpti/portfolioRobotGenerationDND-min.gif"
             },
 
             {
@@ -1969,7 +1969,7 @@ const projects = [
                     "The movement has been made more fluid to keep an eye-pleasing appearance."
                 ],
 
-                media: "images/projects/DartNDustry/Gifs/GifsOpti/portfolioCameraDND-min.gif"
+                media: "images/Projects/DartNDustry/Gifs/GifsOpti/portfolioCameraDND-min.gif"
             }
             //#endregion
         ]
